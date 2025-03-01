@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       CPU:
-        description: "kplatform"
+        description: "分支"
         required: true
         default: 'sm8650'
       FEIL:
